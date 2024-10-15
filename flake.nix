@@ -62,6 +62,10 @@
                   ];
 
                   processes.run.exec = "bundle exec jekyll serve";
+
+                  enterShell = ''
+                    bundle install
+                  '';
                 }
               )
             ];

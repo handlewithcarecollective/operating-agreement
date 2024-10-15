@@ -61,7 +61,7 @@
                     pkgs.jekyll
                   ];
 
-                  # processes.run.exec = "hello";
+                  processes.run.exec = "bundle exec jekyll serve";
                 }
               )
             ];

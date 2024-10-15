@@ -32,6 +32,11 @@
 }
 
 @font-face {
+  font-family: "Qwitcher Grypen";
+  src: url({{ "/assets/fonts/Qwitcher Grypen/QwitcherGrypen-Regular.ttf" | relative_url }}) format(truetype);
+}
+
+@font-face {
   font-family: "GT-Alpina-Typewriter";
   src: url({{ "/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.otf" | relative_url }})
       format(opentype),
@@ -89,8 +94,9 @@ h6 {
   font-weight: 200;
 }
 
-p {
+p, li{
   font-size: 1.25rem;
+  line-height: 1.4;
 }
 
 html,
@@ -105,9 +111,35 @@ body {
   font-family: var(--body-font);
 }
 
-section, footer {
+main, footer {
   padding: 2.5rem;
   background-color: var(--background-color);
+}
+
+section:first-of-type {
+  padding-top: 2.5rem;
+}
+
+section:last-of-type {
+  padding-bottom: 2rem;
+}
+
+section {
+  padding: 0 2.5rem;
+}
+
+section:nth-child(even) {
+  background-color: var(--orange-color);
+}
+
+section:nth-child(4n) {
+  background-color: var(--brown-color);
+  color: var(--canvas-color);
+}
+
+section:nth-child(4n) > :not(hr) {
+  border-left: 3px solid var(--canvas-color);
+  border-right: 3px solid var(--canvas-color);
 }
 
 section > :not(hr) {
@@ -117,8 +149,16 @@ section > :not(hr) {
   padding: 0.125rem 1.75rem;
 }
 
-h2 {
+section > h2 {
   font-size: 1.825rem;
+}
+
+section > h3 {
+  padding-top: 5rem;
+}
+
+section:nth-child(4n) > hr {
+  border-bottom: 3px solid var(--canvas-color);
 }
 
 hr {
@@ -135,4 +175,39 @@ section > h1 {
 
 section > *:has(+ hr) {
   padding-bottom: 8rem;
+}
+
+section > p {
+  padding-bottom: 2.5rem;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+section > :is(ul, ol) {
+  padding-bottom: 2.5rem;
+}
+
+footer {
+  background-color: var(--brown-color);
+  color: var(--canvas-color);
+}
+
+a {
+  color: var(--canvas-color);
+  font-weight: bold;
+}
+
+a:visited {
+  color: var(--canvas-color);
+}
+
+table {
+  width: 100%;
+}
+
+.signature {
+  font-family: 'Qwitcher Grypen';
+  font-size: 2rem;
 }

@@ -33,46 +33,46 @@
 
 @font-face {
   font-family: "GT-Alpina-Typewriter";
-  src: url("/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.otf")
+  src: url({{ "/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.otf" | relative_url }})
       format(opentype),
-    url("/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.ttf")
+    url({{ "/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.ttf" | relative_url }})
       format(truetype),
-    url("/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.woff")
+    url({{ "/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.woff" | relative_url }})
       format(woff),
-    url("/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.woff2")
+    url({{ "/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.woff2" | relative_url }})
       format(woff2);
 }
 
 @font-face {
   font-family: "FTHabit";
-  src: url("/assets/fonts/FTHabit/FTHabit-Regular.otf") format(opentype),
-    url("/assets/fonts/FTHabit/FTHabit-Regular.woff") format(woff),
-    url("/assets/fonts/FTHabit/FTHabit-Regular.woff2") format(woff2);
+  src: url({{ "/assets/fonts/FTHabit/FTHabit-Regular.otf" | relative_url }}) format(opentype),
+    url({{ "/assets/fonts/FTHabit/FTHabit-Regular.woff" | relative_url }}) format(woff),
+    url({{ "/assets/fonts/FTHabit/FTHabit-Regular.woff2" | relative_url }}) format(woff2);
 }
 
 @font-face {
   font-family: "FTHabit";
   font-style: italic;
-  src: url("/assets/fonts/FTHabit/FTHabit-RegularItalic.otf") format(opentype),
-    url("/assets/fonts/FTHabit/FTHabit-RegularItalic.woff") format(woff),
-    url("/assets/fonts/FTHabit/FTHabit-RegularItalic.woff2") format(woff2);
+  src: url({{ "/assets/fonts/FTHabit/FTHabit-RegularItalic.otf" | relative_url }}) format(opentype),
+    url({{ "/assets/fonts/FTHabit/FTHabit-RegularItalic.woff" | relative_url }}) format(woff),
+    url({{ "/assets/fonts/FTHabit/FTHabit-RegularItalic.woff2" | relative_url }}) format(woff2);
 }
 
 @font-face {
   font-family: "FTHabit";
   font-weight: bold;
-  src: url("/assets/fonts/FTHabit/FTHabit-Medium.otf") format(opentype),
-    url("/assets/fonts/FTHabit/FTHabit-Medium.woff") format(woff),
-    url("/assets/fonts/FTHabit/FTHabit-Medium.woff2") format(woff2);
+  src: url({{ "/assets/fonts/FTHabit/FTHabit-Medium.otf" | relative_url }}) format(opentype),
+    url({{ "/assets/fonts/FTHabit/FTHabit-Medium.woff" | relative_url }}) format(woff),
+    url({{ "/assets/fonts/FTHabit/FTHabit-Medium.woff2" | relative_url }}) format(woff2);
 }
 
 @font-face {
   font-family: "FTHabit";
   font-weight: bold;
   font-style: italic;
-  src: url("/assets/fonts/FTHabit/FTHabit-MediumItalic.otf") format(opentype),
-    url("/assets/fonts/FTHabit/FTHabit-MediumItalic.woff") format(woff),
-    url("/assets/fonts/FTHabit/FTHabit-MediumItalic.woff2") format(woff2);
+  src: url({{ "/assets/fonts/FTHabit/FTHabit-MediumItalic.otf" | relative_url }}) format(opentype),
+    url({{ "/assets/fonts/FTHabit/FTHabit-MediumItalic.woff" | relative_url }}) format(woff),
+    url({{ "/assets/fonts/FTHabit/FTHabit-MediumItalic.woff2" | relative_url }}) format(woff2);
 }
 
 

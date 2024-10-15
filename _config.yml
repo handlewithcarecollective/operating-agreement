@@ -22,7 +22,7 @@ title: Handle with Care Collective - Operating Agreement
 email: hello@handlewithcare.dev
 description: >-
   This website details Handle with Care Collective, LLC's Operating Agreement
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/operating-agreement" # the subpath of your site, e.g. /blog
 url: "https://handlewithcarecollective.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: handlewithcarecollective
 

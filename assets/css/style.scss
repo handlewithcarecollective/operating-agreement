@@ -1,0 +1,138 @@
+---
+# The main CSS file needs frontmatter
+---
+
+:root {
+  --canvas-color: #f3efea;
+  --brown-color: #351900;
+  --orange-color: #ff8a35;
+  --gray-color: #7e6f62;
+  --green-color: #29f462;
+
+  --on-canvas-color: var(--brown-color);
+  --on-brown-color: var(--canvas-color);
+  --on-orange-color: var(--brown-color);
+
+  --main-margin: 5rem;
+
+  --accent-color: var(--green-color);
+  --background-color: var(--canvas-color);
+  --foreground-secondary-color: var(--gray-color);
+  --foreground-color: var(--on-canvas-color);
+
+  --headings-font: "GT-Alpina-Typewriter";
+  --body-font: FTHabit;
+
+  --border: 3px solid var(--foreground-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "GT-Alpina-Typewriter";
+  src: url("/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.otf")
+      format(opentype),
+    url("/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.ttf")
+      format(truetype),
+    url("/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.woff")
+      format(woff),
+    url("/assets/fonts/GT-Alpina-Typewriter/GT-Alpina-Typewriter-Thin.woff2")
+      format(woff2);
+}
+
+@font-face {
+  font-family: "FTHabit";
+  src: url("/assets/fonts/FTHabit/FTHabit-Regular.otf") format(opentype),
+    url("/assets/fonts/FTHabit/FTHabit-Regular.woff") format(woff),
+    url("/assets/fonts/FTHabit/FTHabit-Regular.woff2") format(woff2);
+}
+
+@font-face {
+  font-family: "FTHabit";
+  font-style: italic;
+  src: url("/assets/fonts/FTHabit/FTHabit-RegularItalic.otf") format(opentype),
+    url("/assets/fonts/FTHabit/FTHabit-RegularItalic.woff") format(woff),
+    url("/assets/fonts/FTHabit/FTHabit-RegularItalic.woff2") format(woff2);
+}
+
+@font-face {
+  font-family: "FTHabit";
+  font-weight: bold;
+  src: url("/assets/fonts/FTHabit/FTHabit-Medium.otf") format(opentype),
+    url("/assets/fonts/FTHabit/FTHabit-Medium.woff") format(woff),
+    url("/assets/fonts/FTHabit/FTHabit-Medium.woff2") format(woff2);
+}
+
+@font-face {
+  font-family: "FTHabit";
+  font-weight: bold;
+  font-style: italic;
+  src: url("/assets/fonts/FTHabit/FTHabit-MediumItalic.otf") format(opentype),
+    url("/assets/fonts/FTHabit/FTHabit-MediumItalic.woff") format(woff),
+    url("/assets/fonts/FTHabit/FTHabit-MediumItalic.woff2") format(woff2);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headings-font);
+  text-transform: uppercase;
+  font-size: 2.825rem;
+  line-height: 0.9;
+  font-weight: 200;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+  font-family: var(--body-font);
+}
+
+section, footer {
+  padding: 2.5rem;
+  background-color: var(--background-color);
+}
+
+section > :not(hr) {
+  border-left: var(--border);
+  border-right: var(--border);
+  padding-top: 2.5rem;
+  padding: 0.125rem 1.75rem;
+}
+
+h2 {
+  font-size: 1.825rem;
+}
+
+hr {
+  margin: 2rem;
+  border-top: 0;
+  border-bottom: var(--border);
+  width: calc(100% - 4rem);
+  align-self: center;
+}
+
+section > h1 {
+  padding-bottom: 5rem;
+}
+
+section > *:has(+ hr) {
+  padding-bottom: 8rem;
+}

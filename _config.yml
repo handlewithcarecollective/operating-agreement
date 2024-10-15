@@ -27,7 +27,7 @@ url: "https://handlewithcarecollective.github.io" # the base hostname & protocol
 github_username: handlewithcarecollective
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 

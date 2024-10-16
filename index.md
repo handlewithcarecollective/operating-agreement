@@ -147,3 +147,4 @@ This applies even of those successors did not sign this Agreement.
 | Name           | Signature      | Date       |
 | -------------- | -------------- | ---------- |
 | Shane Friedman | Shane Friedman | 10/15/2024 |
+| Morgan Cohn    | Morgan Cohn    | 10/15/2024 |

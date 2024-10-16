@@ -1,0 +1,14 @@
+# This workflow builds the GitHub Pages site using the same
+# Action that GitHub itself uses when we merge to main.
+# We use it to verify that the site will build correctly
+# before we merge a pull request.
+name: Build GH Pages
+on: pull_request
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build
+        uses: actions/jekyll-build-pages@v1

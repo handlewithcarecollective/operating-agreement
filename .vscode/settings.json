@@ -7,8 +7,4 @@
     "handle<br>with",
     "handlewithcarecollective"
   ],
-  // The markdown file is manually formatted such that each sentence is
-  // on its own line, to make diffs more readable. Please do not auto-format
-  // the markdown file
-  "editor.formatOnSave": false
 }

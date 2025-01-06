@@ -1,6 +1,10 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
+# IMORTANT: This file is manually formatted such that each sentence is on its own line.
+# This improves readability when reviewing proposed changes. Please maintain this formatting
+# when making changes, and do not automatically format this file.
 ---
 
 # Handle<br>with Care
@@ -58,7 +62,7 @@ People that will work long-term for the cooperative generally must be converted 
 When the Collective makes a decision by vote, every Member has one -- and only one -- vote.
 
 While the Collective remains small, most actions will require a unanimous vote by all Members.
-Actions that requirement unanimous consent from all Members include:
+Actions that require unanimous consent from all Members include:
 
 - Inviting additional Members to join the Collective
 - Modifying this Agreement

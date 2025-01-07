@@ -2,9 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
-# IMORTANT: This file is manually formatted such that each sentence is on its own line.
+# IMPORTANT: This file is manually formatted such that each sentence is on its own line.
 # This improves readability when reviewing proposed changes. Please maintain this formatting
-# when making changes, and do not automatically format this file.
+# when making changes.
 ---
 
 # Handle<br>with Care

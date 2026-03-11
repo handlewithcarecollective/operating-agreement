@@ -148,10 +148,10 @@ This applies even of those successors did not sign this Agreement.
 
 ---
 
-| Name            | Signature       | Date       |
-| --------------- | --------------- | ---------- |
-| Shane Friedman  | Shane Friedman  | 10/15/2024 |
-| Morgan Cohn     | Morgan Cohn     | 10/15/2024 |
-| Phillip Diffley | Phillip Diffley | 10/17/2024 |
-| Randall Leeds   | Randall Leeds   | 06/21/2025 |
-| Angela Guo      | Angela Guo      | 10/17/2025 |
+| Name            | Signature       | Date       | Ownership |
+| --------------- | --------------- | ---------- | --------- |
+| Shane Friedman  | Shane Friedman  | 10/15/2024 | 20%       |
+| Morgan Cohn     | Morgan Cohn     | 10/15/2024 | 20%       |
+| Phillip Diffley | Phillip Diffley | 10/17/2024 | 20%       |
+| Randall Leeds   | Randall Leeds   | 06/21/2025 | 20%       |
+| Angela Guo      | Angela Guo      | 10/17/2025 | 20%       |

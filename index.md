@@ -109,10 +109,16 @@ Members will be reimbursed for expenses made in the Collective's name only if th
 ---
 
 One of the organizing principles of Handle with Care is that Members should be paid directly for the value that they provide.
-Unlike in most conventional companies, each Member of the Collective will be paid the full sum for any revenue obtained by the Collective due to their work.
 
+By default, each Member of the Collective will be paid the full sum of any revenue obtained by the Collective due to their work.
 Compensation will be determined by time committed to client work, and the rate that a given client has approved.
 This means that each Member will be paid equally per hour for a given contract, regardless of role or title; one Member's work does not have more value than another's.
+
+In some situations, it may be deemed beneficial for the revenue obtained by the Collective for a Member's work to be divided among one or more additional Members.
+For example, a client may be billed exclusively for engineering hours worked on a project, while internally we identify that the Collective and the Members working on the project would benefit from having product support on the project as well.
+In such a situation, the Members billing hours to a client can elect for a portion of their hourly rate for that contract to go to one or more additional Members. 
+This election can be made or changed at anytime with the agreement of all Members billing hours on the contract and all Members receiving a portion of revenue from the billed hours.
+Changes to the election should specify the effective date of the change.
 
 Available hours will be offered to Members with the relevant skills in order of hours currently worked, ascending.
 For example, if a contract calls for 10 hours of Engineering work, those hours will be offered to an Engineering Member only working 10 hours per week before being offered to an Engineering Member already working 30 hours per week.

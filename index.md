@@ -115,7 +115,7 @@ This means that each Member will be paid equally per hour for a given contract, 
 
 In some situations, it may be deemed beneficial for the revenue obtained by the Collective for a Member's billable hours to be divided among one or more additional Members.
 For example, a client may be billed exclusively for engineering hours worked on a project, while internally we identify that the Collective and the Members working on the project would benefit from having product support on the project as well.
-In such a situation, the Members billing hours to a client can elect for a portion of their hourly rate for that contract to go to one or more additional Members. 
+In such a situation, the Members billing hours to a client can elect for a portion of their hourly rate for that contract to go to one or more additional Members.
 This election can be made or changed at anytime with the agreement of all Members billing hours on the contract and all Members receiving a portion of revenue from the billed hours.
 Changes to the election should specify the effective date of the change.
 
@@ -155,8 +155,9 @@ This applies even of those successors did not sign this Agreement.
 
 | Name            | Signature       | Date       | Ownership |
 | --------------- | --------------- | ---------- | --------- |
-| Shane Friedman  | Shane Friedman  | 10/15/2024 | 20%       |
-| Morgan Cohn     | Morgan Cohn     | 10/15/2024 | 20%       |
-| Phillip Diffley | Phillip Diffley | 10/17/2024 | 20%       |
-| Randall Leeds   | Randall Leeds   | 06/21/2025 | 20%       |
-| Angela Guo      | Angela Guo      | 10/17/2025 | 20%       |
+| Shane Friedman  | Shane Friedman  | 10/15/2024 | 16.67%    |
+| Morgan Cohn     | Morgan Cohn     | 10/15/2024 | 16.67%    |
+| Phillip Diffley | Phillip Diffley | 10/17/2024 | 16.67%    |
+| Randall Leeds   | Randall Leeds   | 06/21/2025 | 16.67%    |
+| Angela Guo      | Angela Guo      | 10/17/2025 | 16.67%    |
+| Mark Tengi      | Mark Tengi      | 10/30/2026 | 16.67%    |

@@ -96,13 +96,17 @@ If a given Member finds themself the only one skilled in a particular task, they
 ---
 
 Records of important strategic and operational decisions made by Members will be logged in the [handlewithcarecollective/decisions GitHub repository](https://github.com/handlewithcarecollective/decisions).
-All Members will have access to this repository, and decisions require unanimous approval via GitHub code reviews to be added to the repository.
+All Members will have access to this repository and will be able to open Pull Requests to record decisions made.
+All decisions should be approved by at least 75% of the Collective; decisions involving financial obligations or membership should be approved by 100% of the Collective.
 
 Additional policies and rules will live in this repository, alongside the Agreement.
 
 All Members will have access to the Collective's financial accounts, DocuSign account, Google Workspace, and all records maintained therein.
+Wherever practical and possible, all Members will have administrator-level access to all such systems.
 
-Members will be reimbursed for expenses made in the Collective's name only if the expense is approved by unanimous consent of the Members.
+Members may be reimbursed for expenses made in the Collective's name.
+Expenses exceeding a certain threshold require unanimous Member consent before being reimbursed (see [Making decisions and taking actions](#making-decisions-and-taking-actions)).
+Member consent for reimbursement may be granted retroactively after the expense has been incurred.
 
 ### Finances and payment
 
@@ -141,13 +145,25 @@ Similarly, if the Collective is dissolved, funds will be paid out in the followi
 2. The Collective will pay all debts, loans, and guaranteed payments to Members
 3. Any remaining Capital Account funds will be distributed evenly to current Members
 
+### Leaving the collective
+
+Members may leave the Collective voluntarily at any time.
+Upon electing to leave the Collective, a Member must:
+
+1. ensure they have contributed a prorated amount towards the Collective's shared operating expenses
+2. submit a PR removing their signaure from this Agreement
+
+A Member may also be removed from the Collective with unanimous consent of all other Members.
+
+If a past Member wishes to rejoin the Collective, they must go through the same process as a new prospective Member (i.e. via unanimous consent of all current Members).
+
 ### Successors
 
 ---
 
 This Agreement is binding on successors.
-The present Agreement is and the terms and conditions contained herein apply to and are binding on the Members' successors, assignees, executors, administrators, beneficiaries, and representatives.
-This applies even of those successors did not sign this Agreement.
+The present Agreement and the terms and conditions contained herein apply to and are binding on the Members' successors, assignees, executors, administrators, beneficiaries, and representatives.
+This applies even if those successors did not sign this Agreement.
 
 ### Signatures
 

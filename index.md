@@ -74,7 +74,7 @@ Actions that require unanimous consent from all Members include:
 Other actions may additionally require unanimous consent.
 In general, if an action may affect the financial obligations or membership composition of the Collective, it should be proposed for a vote among the Members.
 
-Additionally, a Member may only be expelled from the Collective via a majority vote of the Members, excluding the Member in question.
+Additionally, a Member may only be expelled from the Collective via a unanimous vote of the Members, excluding the Member in question.
 
 Any recorded approval from a Member may be considered as a consensus vote.
 This includes messages and emoji reactions on Slack, emails, and meeting notes.

@@ -101,7 +101,7 @@ All decisions should be approved by at least 75% of the Collective; decisions in
 
 Additional policies and rules will live in this repository, alongside the Agreement.
 
-All Members will have access to the Collective's financial accounts, DocuSign account, Google Workspace, and all records maintained therein.
+All Members will have access to the Collective's financial accounts, DocuSeal account, Google Workspace, and all records maintained therein.
 Wherever practical and possible, all Members will have administrator-level access to all such systems.
 
 Members may be reimbursed for expenses made in the Collective's name.

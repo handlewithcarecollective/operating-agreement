@@ -211,3 +211,12 @@ table {
   font-family: 'Qwitcher Grypen';
   font-size: 2rem;
 }
+
+.noscript-banner {
+  background: red;
+  padding: 6px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
